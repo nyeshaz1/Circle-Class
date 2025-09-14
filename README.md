@@ -34,6 +34,6 @@ This project demonstrates a simple **Circle class** in C++ using **object-orient
 
 ## **Author**
 
-**Ayesha Zafar (My Gurl)**
+**Ayesha Zafar **
 
 This project is part of my C++ learning journey and demonstrates a basic implementation of classes and OOP concepts.
