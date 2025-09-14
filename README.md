@@ -1,38 +1,39 @@
-#Circle Class in C++
+# Circle Class in C++
 
-This project demonstrates a simple Circle class using object-oriented programming. The class allows you to:
+This project demonstrates a simple **Circle class** in C++ using **object-oriented programming (OOP)** principles. The class allows you to:
 
-Set the radius of a circle
+- Set the radius of a circle
+- Retrieve the radius
+- Calculate the **circumference**
+- Calculate the **area**
 
-Retrieve the radius
+---
 
-Calculate the circumference
+## **Class Details**
 
-Calculate the area
+**Class Name:** `Circle`
 
-Class Details:
-Class Name: Circle
-Attributes:
+**Attributes:**
+- `radius` (float): The radius of the circle.
+- `pi` (const float): The constant value of π (3.1416).
 
-radius (float): The radius of the circle
+**Member Functions:**
+- `void rset(float r)` - Sets the radius. If the input is less than or equal to 0, the radius is set to 0.
+- `float rget()` - Returns the current radius.
+- `float circumference()` - Returns the circumference using `2 * pi * radius`.
+- `float area()` - Returns the area using `pi * radius^2`.
 
-pi (const float): The constant value of pi (3.1416)
+---
 
-Member Functions:
+## **Formulas Used**
 
-rset(float r): Sets the radius. If the input is less than or equal to 0, the radius is set to 0
+- **Area:** `A = π * r^2`
+- **Circumference:** `C = 2 * π * r`
 
-rget(): Returns the current radius
+---
 
-circumference(): Returns the circumference using 2 * pi * radius
+## **Author**
 
-area(): Returns the area using pi * radius^2
+**Ayesha Zafar (My Gurl)**
 
-Formulas Used:
-
-Area = pi * r^2
-
-Circumference = 2 * pi * r
-
-Author:
-Ayesha Zafar 
+This project is part of my C++ learning journey and demonstrates a basic implementation of classes and OOP concepts.
